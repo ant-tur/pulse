@@ -57,6 +57,12 @@
 		}
 
 	}
+
+	.catalog {
+		&__content {
+			justify-content: space-around;
+		}
+	}
 }
 
 
@@ -68,6 +74,8 @@
 	}
 
 	.carousel {
+		padding: 50px 0 50px;
+
 		&__inner {
 			width: 75%;
 
@@ -77,6 +85,8 @@
 		}
 
 	}
+
+
 
 }
 
@@ -161,6 +171,32 @@
 		&__descr {
 			font-size: 16px;
 			line-height: 20px;
+		}
+	}
+
+	.catalog {
+		padding-bottom: 50px;
+
+		.title {
+			font-size: 24px;
+		}
+
+		&__tabs {
+			flex-direction: column;
+			margin-top: 30px;
+		}
+
+		&__tab {
+			margin-top: 10px;
+			font-size: 16px;
+
+			&:hover {
+				box-shadow: none;
+			}
+		}
+
+		&__content {
+			margin-top: 20px;
 		}
 	}
 }
