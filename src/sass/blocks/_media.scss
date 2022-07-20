@@ -86,7 +86,21 @@
 
 	}
 
+	.reviews {
+		&__item {
+			flex-direction: column;
+			align-items: center;
+		}
 
+		&__photo {
+			margin-bottom: 15px;
+			margin-right: 0;
+		}
+
+		&__descr {
+			width: 90%;
+		}
+	}
 
 }
 
@@ -197,6 +211,12 @@
 
 		&__content {
 			margin-top: 20px;
+		}
+	}
+
+	.reviews {
+		.title {
+			font-size: 24px;
 		}
 	}
 }
