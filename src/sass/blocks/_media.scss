@@ -233,4 +233,17 @@
 			font-size: 18px;
 		}
 	}
+
+	.modally {
+		width: 100%;
+		padding: 20px;
+
+		.feed-form {
+			width: 100%;
+		}
+
+		&__close {
+			right: 0px;
+		}
+	}
 }
